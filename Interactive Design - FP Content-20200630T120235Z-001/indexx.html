@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">	
+	
+	<!-- My CSS -->
+	<link href= "style_indexx.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<title>Gaby's Personal Website FP</title>
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-sm navbar-light sticky-top" style="background-color: #E6E7E8">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="Image - FP Content/heart log.png" width="20" height="20" alt="logo"> Gaby Manurung</a>
+		<button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarRsponsive">
+			<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="indexx.html">HOME</a>
+				</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="aboutpage.html">ABOUT</a>
+				</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="lifestylepage.html">LIFESTYLE</a>
+				</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="portfoliopage.html">PORTFOLIO</a>
+				</li>
+			</ul>
+		<div class="btn-group-toggle" data-toggle="buttons">
+  <a href= "contactpages.html"><label class="btn btn-secondary active">CONTACT</label></a>
+</div>
+		</div>
+		</div>
+	</nav>
+	<br>
+	<center><h1>Gaby Manurung</h1></center>
+	<br>
+	<section>
+	<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="Image - FP Content/Homepageintroduction.jpg" alt="homepage" width="350">
+    </div>
+    <div class="col-6 col-s-9">
+      <h2>Hi! I’m Gaby Manurung. Welcome to my page!</h2>
+		<div class="clearfix">
+			<a href="aboutpage.html"><button type="button" class="btn btn-secondary float-right" >Learn More</button></a>
+		</div>
+</div>
+  </div>
+	</div>
+	</section>
+	<hr>
+<section id="content">
+<div class="row">
+  <div class="col-6 col-md-4">
+  <img src="Image - FP Content/HomepageAdayinmylife.jpg"  alt="adayinmylife" width="325">
+</div>
+	<div class="col align-self-center">
+      <h3>A DAY IN MY LIFE
+	<p id="demo"></p>
+
+<script>
+var d = new Date("2021-05-21");
+document.getElementById("demo").innerHTML = d;
+</script>
+		</h3>
+    </div>
+		<div class="col-sm-8"><p class="p1">Christmas is one of my favourite holidays. It is a season of love and warmth, filled with beautiful lights and decorations. To get into the Christmas spirit,<span id="dots">...</span><span id="more"> I decided to create a Christmas themed digital drawing…</span>
+			<button onclick="myFunction()" id="myBtn">Read more</button></p></div>
+
+	</div>
+		</section>
+	<hr>
+<section id="content1">
+	<center><h4>UPCOMING PLANS</h4></center>
+  <img class="img3" src="Image - FP Content/Homepageupcomingplans.png" alt="upmcoming plans" width="350">
+	<br>
+  <center><p>I am currently drawing new digital characters of my friends and family. This is a challenge as I want the characters to be cartoon styled but still resemble their appearance in real life…</p>
+	  <br>
+    <footer>
+      <h5 class="text-left">COPYRIGHT©2020 GABY MANURUNG</h5>
+      
+      <!-- Add font awesome icons -->
+      <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgaby.gabs4ever
+" class="fa fa-facebook"></a> 
+		<a href="https://www.instagram.com/gaby_gabs4ever/" class="fa fa-instagram"></a>	  
+	  </footer>
+  </center>
+	</section>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+	<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+</body>
+</html>

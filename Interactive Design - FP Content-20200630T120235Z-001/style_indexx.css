@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	font-family: 'Petit Formal Script', cursive;
+}
+
+h2 {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+h3 {
+	font-family: 'Nunito Sans', sans-serif;
+	background-color: #E6E7E8;
+	float: left;
+}
+
+h4{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+h5{
+	font-family: 'Nunito Sans', sans-serif; font-size: 13px;
+	color: #FFFFFF;
+	float: right;
+}
+.container {
+	background-color: #E6E7E8;
+	font-family: 'Nunito Sans', sans-serif;
+margin: 2px;
+	
+}
+
+#content {
+	background-color: #BBC8CB;
+	margin-left: 250px;
+	margin-top: 2px;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.p1 {
+	background-color: #F1F2F2;
+	margin-bottom: 1px;
+}
+
+
+#content1 {
+	background-color: #E6E7E8 ;
+	max-height: 80px;
+}
+
+
+img.img3 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+	height: 30px;
+   background-color: #000000;
+	
+}
+
+.fa-facebook {
+  background: #000000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #000000;
+  color: white;
+}
+
+.fa {
+  padding: 2px;
+  font-size: 15px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+float: left;
+}
